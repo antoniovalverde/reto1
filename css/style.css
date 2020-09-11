@@ -97,11 +97,12 @@
   
   /* Estilos imagen */
   .contenedor-img {
-    background-color: #aaa;
+    background-color: white;
     width: auto;
     height:200px;
     padding: 20px;
     z-index: 9;
+    transition: 0.5s;
   }
 
   .contenedor-img2 {
@@ -111,6 +112,10 @@
     padding: 20px;
     z-index: 9;
     transition: 0.5s;
+  }
+
+  .contenedor-img:hover {
+    background-color: grey;
   }
 
   .contenedor-img2:hover {
